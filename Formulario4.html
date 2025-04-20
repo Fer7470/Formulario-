@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos4.css">
+</head>
+<body>
+    <form action="" class="formulario">
+
+        <h2>Seleccione su Estado Civil</h2>
+        <label><input type="radio" name="estadocivil" required> Casado</label>
+        <label><input type="radio" name="estadocivil" required> Soltero</label>
+        <label><input type="radio" name="estadocivil" required> Divorciado</label>
+        <label><input type="radio" name="estadocivil" required> Conviviente</label>
+
+        <h2>Seleccione sus Beneficios</h2>
+        <label><input type="checkbox" name="beneficios" value="gratificacion" required> Gratificación</label>
+        <label><input type="checkbox" name="beneficios" value="escolaridad" required> Escolaridad</label>
+        <label><input type="checkbox" name="beneficios" value="bono" required> Bono</label>
+
+        <label for="mensaje">Escribir mensaje: </label>
+        <textarea name="terminos" id="mensaje" rows="5" placeholder="Escribir mensaje..." required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
