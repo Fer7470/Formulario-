@@ -1,0 +1,65 @@
+body {
+    background-color: springgreen;
+    font-family: 'Shadows Into Light', cursive;
+    color: blue;
+    padding: 20px;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: blue;
+}
+
+.formulario {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: orange;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: blue;
+}
+
+input[type="text"],
+select {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: cornsilk;
+    color: black;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+select:focus {
+    box-shadow: 0 0 10px rgba(255, 221, 0, 0.6);
+    background-color: #333;
+}
+
+button {
+    background-color: yellow;
+    color: #121212;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: blue;
+    transform: scale(1.05);
+}
